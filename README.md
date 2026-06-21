@@ -18,6 +18,17 @@ Crop Recommendation System is a Machine Learning-powered web application that he
 * **Frontend:** HTML5, CSS3
 * **Data Processing:** Pandas, NumPy
 
+## Screenshots
+
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+### Prediction Result
+
+![Prediction Result](screenshots/prediction.png)
+
+
 ## 📋 Installation
 
 1. Clone the repository
