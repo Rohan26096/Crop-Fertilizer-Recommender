@@ -1,6 +1,22 @@
 # 🌱 AgriTech Decision Support System
 
-> An AI-powered AgriTech dashboard that recommends suitable crops based on soil conditions and provides fertilizer suggestions, soil health analysis, disease risk assessment, irrigation advice, and profit estimation.
+An AI-powered AgriTech dashboard that recommends crops using Machine Learning and provides soil analysis, fertilizer recommendations, disease risk detection, irrigation advice, and profit estimation.
+
+---
+
+## ✨ Features
+
+- 🌱 Crop Recommendation
+- 💰 Profit Estimation
+- ⚠ Disease Risk Detection
+- 💚 Soil Health Analysis
+- 💧 Irrigation Advice
+- 🧪 Nutrient Analysis
+- 📊 Interactive Dashboard
+
+---
+
+## 📸 Screenshots
 
 ---
 
