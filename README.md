@@ -1,34 +1,18 @@
 # 🌱 AgriTech Decision Support System
 
-An AI-powered AgriTech dashboard that recommends crops using Machine Learning and provides soil analysis, fertilizer recommendations, disease risk detection, irrigation advice, and profit estimation.
+An AI-powered **AgriTech Dashboard** built using **Flask** and **Machine Learning** that recommends the most suitable crop based on soil conditions and provides valuable agricultural insights such as fertilizer recommendations, soil health analysis, irrigation advice, disease risk detection, and profit estimation.
 
 ---
 
-## ✨ Features
+# 📸 Application Preview
 
-- 🌱 Crop Recommendation
-- 💰 Profit Estimation
-- ⚠ Disease Risk Detection
-- 💚 Soil Health Analysis
-- 💧 Irrigation Advice
-- 🧪 Nutrient Analysis
-- 📊 Interactive Dashboard
-
----
-
-## 📸 Screenshots
-
----
-
-## 📸 Dashboard Preview
-
-> Add your screenshots here.
-
-### 🏠 Home Page
+## 🏠 Home Page
 
 ![Home](screenshots/home.png)
 
-### 📊 Dashboard
+---
+
+## 📊 Dashboard
 
 ![Dashboard](screenshots/dashboard.png)
 
@@ -36,62 +20,69 @@ An AI-powered AgriTech dashboard that recommends crops using Machine Learning an
 
 # ✨ Features
 
-- 🌱 AI-based Crop Recommendation
-- 💰 Profit Estimation
-- ⚠️ Disease Risk Detection
-- 💚 Soil Health Score
-- 💧 Irrigation Advice
+- 🌱 AI-Based Crop Recommendation
 - 🧪 Soil Nutrient Analysis
+- 💚 Soil Health Score
 - 🌿 Fertilizer Recommendation
-- 📊 Interactive NPK Visualization (Chart.js)
+- 💧 Irrigation Advice
+- ⚠️ Disease Risk Detection
+- 💰 Profit Estimation
+- 📊 Interactive NPK Chart (Chart.js)
 - 📝 Input Summary Dashboard
-- 🌙 Modern Dark UI
+- 🌙 Modern Responsive Dark UI
+
+---
+
+# 🚀 Why This Project?
+
+Most crop recommendation projects stop after predicting a crop.
+
+This project goes beyond prediction by providing a complete **Decision Support Dashboard** that helps users understand:
+
+- Which crop is best suited for the given soil.
+- Soil nutrient condition.
+- Soil health score.
+- Recommended fertilizers.
+- Estimated crop revenue.
+- Disease risk based on soil conditions.
+- Irrigation requirements.
+
+This makes the application more practical and closer to a real-world AgriTech solution.
 
 ---
 
 # 🛠 Tech Stack
 
-### Backend
-
-- Python
-- Flask
-- Scikit-learn
-- Pandas
-
-### Frontend
-
-- HTML5
-- CSS3
-- JavaScript
-- Chart.js
-
-### Machine Learning
-
-- Random Forest Classifier
+| Category | Technologies |
+|----------|--------------|
+| **Backend** | Python, Flask |
+| **Machine Learning** | Scikit-learn, Pandas |
+| **Frontend** | HTML5, CSS3, JavaScript |
+| **Visualization** | Chart.js |
+| **Model** | Random Forest Classifier |
 
 ---
 
-# 🚀 Project Workflow
+# ⚙️ Project Workflow
 
 ```text
-User Input
-      │
-      ▼
-Machine Learning Model
-      │
-      ▼
-Crop Recommendation
-      │
-      ▼
-────────────────────────────────
-Crop Details
-Profit Estimation
-Disease Risk
-Soil Health
-Irrigation Advice
-Nutrient Analysis
-Fertilizer Recommendation
-────────────────────────────────
+                User Input
+                     │
+                     ▼
+          Machine Learning Model
+                     │
+                     ▼
+        Crop Recommendation
+                     │
+      ┌──────────────┼──────────────┐
+      ▼              ▼              ▼
+ Crop Details   Soil Analysis   Profit Estimation
+      │              │              │
+      ▼              ▼              ▼
+Disease Risk   Irrigation     Fertilizer Advice
+                     │
+                     ▼
+          Interactive Dashboard
 ```
 
 ---
@@ -106,6 +97,8 @@ AgriTech-Decision-Support-System
 │   └── crop_model.pkl
 │
 ├── screenshots/
+│   ├── home.png
+│   └── dashboard.png
 │
 ├── static/
 │   └── style.css
@@ -117,40 +110,41 @@ AgriTech-Decision-Support-System
 ├── train.py
 ├── test_model.py
 ├── requirements.txt
+├── runtime.txt
 └── README.md
 ```
 
 ---
 
-# ⚙️ Installation
+# ⚡ Installation
 
-Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/Rohan26096/AgriTech-Decision-Support-System.git
 ```
 
-Move into the project directory
+### Move into the project directory
 
 ```bash
 cd AgriTech-Decision-Support-System
 ```
 
-Install dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application
+### Run the application
 
 ```bash
 python app.py
 ```
 
-Open your browser and visit
+### Open your browser
 
-```text
+```
 http://127.0.0.1:5001
 ```
 
@@ -158,33 +152,58 @@ http://127.0.0.1:5001
 
 # 📈 Current Features
 
-- ✅ Crop Recommendation
-- ✅ Fertilizer Recommendation
-- ✅ Soil Health Analysis
-- ✅ Soil Nutrient Analysis
-- ✅ Disease Risk Detection
-- ✅ Profit Estimation
-- ✅ Irrigation Recommendation
-- ✅ Interactive Dashboard
-- ✅ Input Summary
-- ✅ Dark Theme
+✅ Crop Recommendation
+
+✅ Fertilizer Recommendation
+
+✅ Soil Health Analysis
+
+✅ Soil Nutrient Analysis
+
+✅ Irrigation Recommendation
+
+✅ Disease Risk Detection
+
+✅ Profit Estimation
+
+✅ Interactive Dashboard
+
+✅ Input Summary
+
+✅ Dark Theme UI
 
 ---
 
 # 🔮 Future Improvements
 
-- 🌦 Weather API Integration
+- 🌦️ Live Weather API Integration
 - 📄 PDF Report Generation
-- 🗂 Prediction History (SQLite)
-- 📍 Region-based Crop Recommendation
-- 📱 Mobile Responsive Design
-- ☁ Cloud Deployment
+- 🗂️ Prediction History using SQLite
+- 📍 Region-Based Crop Recommendation
+- 📱 Mobile Responsive Dashboard
+- ☁️ Cloud Deployment
+- 📈 Crop Yield Prediction
+
+---
+
+# 🎯 Applications
+
+This project can be useful for:
+
+- 👨‍🌾 Farmers
+- 🌾 Agriculture Consultants
+- 🎓 Students
+- 🤖 Machine Learning Projects
+- 💼 Portfolio & Resume
+- 🚀 Internship Demonstrations
 
 ---
 
 # 🤝 Contributing
 
-Contributions, suggestions, and improvements are welcome.
+Contributions are welcome.
+
+If you would like to improve this project:
 
 1. Fork the repository
 2. Create a new branch
@@ -197,9 +216,12 @@ Contributions, suggestions, and improvements are welcome.
 
 **Rohan**
 
-GitHub:
-https://github.com/Rohan26096
+- GitHub: https://github.com/Rohan26096
 
 ---
 
-## ⭐ If you found this project useful, consider giving it a star!
+# ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
+
+It helps the project reach more developers and motivates future improvements.
